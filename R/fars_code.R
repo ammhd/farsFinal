@@ -18,7 +18,7 @@ fars_read <- function(filename){
   dplyr::tbl_df(data)
 }
 
-#' Make a file name
+#' Make a file name 
 #'
 #' The "make_filename" function creats a file name based on the year that is provided as a parameter
 #' @param year integer
