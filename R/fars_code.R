@@ -1,4 +1,4 @@
-#' Read the CSV files without a visible progression
+#' Read the CSV files without a visible progression 
 #'
 #' The "fars_read" function reads a CSV file, given a file name, without showing a progress line.
 #' Throws an error line if the file doesn't exist
