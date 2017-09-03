@@ -1,2 +1,9 @@
-language: R
-cache: packages
+language: r
+warnings_are_errors: false
+sudo: required
+install:
+  - install.packages("ggplot2")
+  - install.packages("readr")
+  - install.packages("dplyr")
+  - install.packages("tidyr")
+  - install.packages("magrittr")
