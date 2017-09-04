@@ -27,10 +27,10 @@ fars_read <- function(filename) {
 }
 
 ```
-Example: `fars_read("accident_2013.csv.bz2")`
+Example: `fars_read("../data/accident_2013.csv.bz2")`
 
 ```{r echo=FALSE}
-fars_read("accident_2013.csv.bz2")
+fars_read("C:/Workstation/coursera/Mastering_R/final_assignment_building_R_package/package/farsFinal/data/accident_2013.csv.bz2")
 ```
 
 
@@ -41,7 +41,7 @@ The "make_filename" function creats a file name based on the year that is provid
 ```{r make_filename}
 make_filename <- function(year) {
   year <- as.integer(year)
-  sprintf("accident_%d.csv.bz2", year)
+  sprintf("C:/Workstation/coursera/Mastering_R/final_assignment_building_R_package/package/farsFinal/data/accident_%d.csv.bz2", year)
 }
 ```
 Example: `make_filename(2013)`
