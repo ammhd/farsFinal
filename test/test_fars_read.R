@@ -1,3 +1,4 @@
+library(testthat)
 test_that('fars_read function read files in the working directory', {
   # Check for inheritance
   expect_is(fars_read("accident_2013.csv.bz2"), "tbl")
