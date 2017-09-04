@@ -8,3 +8,9 @@ Description: The functions will be using data from the US National Highway Traff
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
+Depends: R (>= 3.0.0)
+Imports: dplyr, tidyr, maps, readr, magrittr
+Suggests: knitr, rmarkdown,
+    testthat
+VignetteBuilder: knitr
